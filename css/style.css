@@ -3,6 +3,136 @@
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background: #001821;
+    color: #FFFFFF;
+    line-height: 21px;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+
+a {
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1141px;
+}
+
+header {
+    height: 123px;
+    position: relative;
+    margin-bottom: 135px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 0px;
+}
+
+.logo__pic {
+    width: 85px;
+    top: 29px;
+}
+
+.menu {
+    top: 33px;
+    left: 164px;
+    position: absolute;
+}
+
+.contacts {
+    display: block;
+    position: relative;
+    top: 28px;
+    text-align: right;
+    font-style: normal;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+    font-style: 14px;
+    line-height: 19px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+.contacts__phone {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 35,41px;
+    right: 0;
+}
+
+.contacts__dropdown-title {
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    line-height: 20px;
+    right: 0;
+    top: 21px;
+    text-decoration: underline;
+}
+
+.main-title {
+    width: 511px;
+}
+
+.main-title__header {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.1;
+    margin-bottom: 27px;
+}
+
+.main-title__text {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 33px;
+}
+
+.button {
+    background: #F5170E;
+    border-radius: 35px;
+    width: 168px;
+    height: 55px;
+    padding: 18px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.footer {
+    position: relative;
+}
