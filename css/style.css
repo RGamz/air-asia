@@ -25,7 +25,7 @@ a {
 header {
     height: 123px;
     position: relative;
-    margin-bottom: 135px;
+    margin-bottom: 67px;
 }
 
 .logo {
@@ -110,12 +110,12 @@ h1, h2, h3, h4, h5, h6 {
 .main-title__header {
     font-weight: 700;
     font-size: 72px;
-    line-height: 1.1;
-    margin-bottom: 27px;
+    line-height: 98px;
+    margin-bottom: 29px;
 }
 
 .main-title__text {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 20px;
     margin-bottom: 33px;
 }
