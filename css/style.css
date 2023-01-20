@@ -84,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
+.menu__item--active .menu__link {
+    color:#DA0100
+}
+
 .contacts__phone {
     display: block;
     position: absolute;
@@ -129,9 +133,43 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 248px;
+
+}
+
+.button:hover {
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
 }
 
 
+.tour-offers {
+    position: relative;
+    margin-bottom: 127px;
+}
+
+.tour-offers__header {
+    position: relative;
+    margin-bottom: 51px;
+}
+
+.tour-offers__title {
+    position: absolute;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.tour-offers__icon {
+    position: absolute;
+    display: inline-block;
+    left: 280px;
+    vertical-align: middle;
+}
+
+.tour-offer__list {
+    min-height: 450px;
+}
 
 .footer {
     position: relative;
