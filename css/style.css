@@ -12,6 +12,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 a {
     color: inherit;
@@ -133,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 248px;
+    margin-bottom: 246px;
 
 }
 
@@ -154,7 +157,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .tour-offers__title {
     position: absolute;
-    display: inline-block;
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
@@ -162,13 +164,72 @@ h1, h2, h3, h4, h5, h6 {
 
 .tour-offers__icon {
     position: absolute;
-    display: inline-block;
     left: 280px;
     vertical-align: middle;
 }
 
-.tour-offer__list {
+.tour-offer__item {
     min-height: 450px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+    display: inline-block;
+    margin-right: 23px;
+    width: 362px;
+}
+
+.tour-offer__item:last-child {
+    margin-right: 0;
+}
+
+.tour-offer__img {
+    min-height: 144px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 33px;
+}
+
+.tour-offer__country {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.tour-offer__content {
+    padding: 22px 26px;
+    color: #303030;
+}
+
+.tour-offer__additinal-info {
+    position: relative;
+    width: 272px;
+    margin-bottom: 24px;
+}
+
+.tour-offer__calendar-block {
+    position: absolute;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tour-offer__calendar-icon {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.tour-offer__days {
+    display: inline-block;
+}
+
+
+.tour-offer__food-block {
+    position: absolute;
+    display: inline-block;
+    margin-left: 162px;
+}
+
+.tour-offer_text {
+    display: block;
 }
 
 .footer {
