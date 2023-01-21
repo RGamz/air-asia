@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-title {
     width: 511px;
+    margin-bottom: 246px;
 }
 
 .main-title__header {
@@ -136,8 +137,21 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 246px;
 
+}
+
+.button--white {
+    background: #FFFFFF;
+    border: 1px solid #F5170E;
+    color: #F5170E;
+    width: 135px;
+    text-align: center;
+    padding: 18px 30px;
+}
+
+.button--red {
+    width: 135px;
+    padding: 18px 30px;
 }
 
 .button:hover {
@@ -146,32 +160,26 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .tour-offers {
-    position: relative;
     margin-bottom: 127px;
 }
 
 .tour-offers__header {
-    position: relative;
+    display: inline-block;
     margin-bottom: 51px;
 }
 
 .tour-offers__title {
-    position: absolute;
+    display: inline-block;
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
-}
-
-.tour-offers__icon {
-    position: absolute;
-    left: 280px;
-    vertical-align: middle;
+    margin-right: 12px;
 }
 
 .tour-offer__item {
-    min-height: 450px;
+    min-height: 449px;
     background: #FFFFFF;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 5px;
     display: inline-block;
     margin-right: 23px;
     width: 362px;
@@ -184,7 +192,11 @@ h1, h2, h3, h4, h5, h6 {
 .tour-offer__img {
     min-height: 144px;
     border-radius: 5px 5px 0px 0px;
-    margin-bottom: 33px;
+}
+
+.tour-offer__content {
+    padding: 22px 22px;
+    color: #303030;
 }
 
 .tour-offer__country {
@@ -195,41 +207,39 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 21px;
 }
 
-.tour-offer__content {
-    padding: 22px 26px;
-    color: #303030;
-}
-
 .tour-offer__additinal-info {
-    position: relative;
-    width: 272px;
+    display: inline-block;
+    margin-right: 28px;
     margin-bottom: 24px;
 }
 
+.tour-offer__additinal-info:last-child {
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
 .tour-offer__calendar-block {
-    position: absolute;
     display: inline-block;
-    margin-right: 20px;
+    vertical-align: middle;
 }
-
-.tour-offer__calendar-icon {
-    margin-right: 10px;
-    display: inline-block;
-}
-
-.tour-offer__days {
-    display: inline-block;
-}
-
 
 .tour-offer__food-block {
-    position: absolute;
     display: inline-block;
-    margin-left: 162px;
+    vertical-align: middle;
 }
 
-.tour-offer_text {
-    display: block;
+.tour-offer__sub-icon {
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.tour-offer__subtext {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.tour-offer__text {
+    margin-bottom: 25px;
 }
 
 .footer {
