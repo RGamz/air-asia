@@ -42,7 +42,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url("images/background_1.jpg") center top -6px no-repeat, url("images/background_2.jpg") right -65px bottom 105px no-repeat;
+    background: url(.images/background_1.jpg) center top -6px no-repeat, url(.images/background_2.jpg) right -65px bottom 105px no-repeat;
 }
 
 
