@@ -37,6 +37,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+
 p {
     margin-top: 0;
 }
@@ -52,7 +58,7 @@ p {
 }
 
 header {
-    height: 123px;
+    min-height: 123px;
     position: relative;
     margin-bottom: 67px;
 }
@@ -61,7 +67,6 @@ header {
     display: block;
     position: absolute;
     top: 23px;
-    left: 0px;
 }
 
 .logo__pic {
@@ -82,6 +87,7 @@ header {
     text-align: right;
     font-style: normal;
     margin: 0;
+    right: 0;
 }
 
 .menu__item {
@@ -118,6 +124,7 @@ header {
     font-size: 11px;
     line-height: 20px;
     margin-bottom: 7px;
+    right: 0;
 }
 
 .contacts__dropdown-title {
@@ -125,9 +132,9 @@ header {
     position: absolute;
     font-size: 14px;
     line-height: 20px;
-    right: 0;
     top: 21px;
     text-decoration: underline;
+    right: 0;
 }
 
 .main-title {
@@ -188,11 +195,7 @@ header {
     position: relative;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 49px;
-}
+/* end of header */
 
 .tour-offers__title {
     display: inline-block;
@@ -281,6 +284,12 @@ h2 {
     line-height: 21px;
 }
 
+/* end of tour-offers */
+
+.promo-offers {
+    margin-bottom: 142px;
+}
+
 .promo-offers__item {
     display: inline-block;
     width: 557px;
@@ -338,9 +347,10 @@ h2 {
     margin-bottom: 58px;
 }
 
+/*end of promo-offers*/
+
 .paginator {
     text-align: center;
-    margin-bottom: 142px;
 }
 
 .paginator__index, .paginator__list, .paginator__item {
@@ -380,9 +390,12 @@ h2 {
     margin-bottom: 35px;
 }
 
-.about-us__background-image, .about-us__front-img {
+.about-us__background, .about-us__front {
     display: inline-block;
     vertical-align: top;
+}
+
+.about-us__background-image, .about-us__front-img {
     border-radius: 5px;
 }
 
@@ -390,6 +403,7 @@ h2 {
     margin-top: -410px;
     margin-left: 352px;
 }
+
 
 .about-us__info {
     padding: 80px 98px;
