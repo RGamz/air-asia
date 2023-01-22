@@ -82,7 +82,7 @@ header {
 
 .contacts {
     display: block;
-    position: relative;
+    position: absolute;
     top: 28px;
     text-align: right;
     font-style: normal;
@@ -112,11 +112,17 @@ header {
 
 .contacts__phone {
     display: block;
-    position: absolute;
     text-decoration: none;
     font-size: 26px;
     line-height: 35,41px;
-    right: 0;
+}
+
+.contacts__dropdown-title {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    top: 21px;
+    text-decoration: underline;
 }
 
 .contacts__workhours {
@@ -127,15 +133,7 @@ header {
     right: 0;
 }
 
-.contacts__dropdown-title {
-    display: block;
-    position: absolute;
-    font-size: 14px;
-    line-height: 20px;
-    top: 21px;
-    text-decoration: underline;
-    right: 0;
-}
+/* end of header */
 
 .main-title {
     width: 511px;
@@ -244,7 +242,7 @@ header {
 
 .tour-offer__additinal-info {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     margin-left: 5px;
 }
 
@@ -266,6 +264,7 @@ header {
 
 .tour-offer__sub-icon {
     display: inline-block;
+    vertical-align: middle;
     margin-right: 9px;
 }
 
@@ -400,7 +399,7 @@ header {
 }
 
 .about-us__front-img {
-    margin-top: -410px;
+    margin-top: -415px;
     margin-left: 352px;
 }
 
@@ -445,10 +444,22 @@ header {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.logo--footer {
+    display: block;
+    position: absolute;
+    top: 35px;
+}
+
+.menu--footer {
+    display: block;
+    position: absolute;
+    top: 45px;
+}
+
 .social-media {
     display: inline-block;
     position: absolute;
-    top: 26px;
+    top: 38px;
     right: 260px;
 }
 
@@ -473,5 +484,5 @@ header {
 }
 
 .contacts--footer {
-    top: 10px;
+    top: 30px;
 }
