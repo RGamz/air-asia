@@ -397,31 +397,43 @@ header {
 /* end of paginator*/
 
 .about-us {
-    min-height: 550px;
-    margin-bottom: 35px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.about-us__background, .about-us__front {
-    display: inline-block;
-    vertical-align: top;
+.about-us__front {
+    max-width: 785px;
+    display: flex;
 }
 
 .about-us__background-image, .about-us__front-img {
     border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.about-us__background-image {
+    position: relative;
+}
+
+.about-us__front {
+    position: absolute;
 }
 
 .about-us__front-img {
-    margin-top: -415px;
+    margin-top: 93px;
     margin-left: 352px;
 }
 
 
 .about-us__info {
-    padding: 80px 98px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: -465px;
-    margin-left: 338px;
+    position: absolute;
+    padding: 85px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-left: 350px;
 }
 
 .about-us__header {
@@ -430,7 +442,8 @@ header {
 }
 
 .about-us__text {
-    width: 502px;
+    max-width: 502px;
+    min-width: 502px;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
@@ -450,51 +463,39 @@ header {
 /* end of about-us section*/
 
 .footer {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 65px;
     height: 88px;
     margin-bottom: 57px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .logo--footer {
-    display: block;
-    position: absolute;
-    top: 35px;
+    margin-right: 0px;
 }
 
 .menu--footer {
-    display: block;
-    position: absolute;
-    top: 45px;
+    flex: 1;
+    margin-left: 80px;
 }
 
 .social-media {
-    display: inline-block;
-    position: absolute;
-    top: 38px;
-    right: 260px;
+    margin-right: 75px;
 }
 
 .social-media__list {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 .social-media__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 8px;
+    margin-right: 9px;
 }
 
 .social-media__item:last-child {
     margin-right: 0;
-}
-
-.social-media__img {
-    display: inline-block;
-    text-decoration: none;
-    width: 36px;
-    height: 36px;
-}
-
-.contacts--footer {
-    top: 30px;
 }
