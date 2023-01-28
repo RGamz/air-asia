@@ -58,15 +58,25 @@ p {
 }
 
 header {
-    min-height: 123px;
-    position: relative;
-    margin-bottom: 67px;
+    padding-top: 25px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo {
     display: block;
-    position: absolute;
-    top: 23px;
+    margin-right: 80px;
 }
 
 .logo__pic {
@@ -74,20 +84,10 @@ header {
     top: 29px;
 }
 
-.menu {
-    top: 33px;
-    left: 164px;
-    position: absolute;
-}
-
 .contacts {
-    display: block;
-    position: absolute;
-    top: 28px;
     text-align: right;
     font-style: normal;
     margin: 0;
-    right: 0;
 }
 
 .menu__item {
@@ -136,8 +136,12 @@ header {
 /* end of header */
 
 .main-title {
-    width: 511px;
-    margin-bottom: 245px;
+    width: 45%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 63px;
 }
 
 .main-title__header {
@@ -170,7 +174,6 @@ header {
     background: #FFFFFF;
     border: 1px solid #F5170E;
     color: #F5170E;
-    text-align: center;
     padding: 18px 30px;
 }
 
@@ -182,42 +185,42 @@ header {
     box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
 }
 
+/* end of main title */
 
 .tour-offers {
-    margin-bottom: 123px;
+    margin-bottom: 30px;
+    min-height: 743px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .tour-offers__header {
     margin-bottom: 51px;
     margin-left: 3px;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-/* end of header */
-
 .tour-offers__title {
-    display: inline-block;
     margin-right: 12px;
 }
 
 .tour-offers__icon {
-    display: inline-block;
-    position: absolute;
     top:14px;
+}
+
+.tour-offer__list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .tour-offer__item {
     min-height: 449px;
     background: #FFFFFF;
     border-radius: 5px;
-    display: inline-block;
-    margin-right: 23px;
-    width: 362px;
+    width: 31.72%;
     overflow: hidden;
-}
-
-.tour-offer__item:last-child {
-    margin-right: 0;
 }
 
 .tour-offer__img {
@@ -230,6 +233,8 @@ header {
     padding-bottom: 26px;
     padding-right: 16px;
     color: #303030;
+    display: flex;
+    flex-direction: column;
 }
 
 .tour-offer__country {
@@ -240,36 +245,31 @@ header {
     margin-bottom: 20px;
 }
 
+.tour-offer__content-block {
+    display: flex;
+    flex-direction: column;
+}
+
 .tour-offer__additinal-info {
-    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
     margin-bottom: 24px;
     margin-left: 5px;
 }
 
-.tour-offer__additinal-info:last-child {
-    display: inline-block;
-    margin-right: 0px;
-    vertical-align: middle;
-}
-
 .tour-offer__calendar-block {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
 }
 
 .tour-offer__food-block {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
 }
 
 .tour-offer__sub-icon {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 9px;
 }
 
 .tour-offer__subtext {
-    display: inline-block;
     margin-right: 28px;
     font-weight: 400;
     font-size: 16px;
@@ -283,28 +283,37 @@ header {
     line-height: 21px;
 }
 
+.tour-offer__button {
+    margin-top: auto;
+}
+
 /* end of tour-offers */
 
 .promo-offers {
     margin-bottom: 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo-offers__list {
+    display: flex;
+    justify-content: space-around;
 }
 
 .promo-offers__item {
-    display: inline-block;
-    width: 557px;
     border-radius: 5px;
-    margin-right: 21px;
-    vertical-align: top;
+    margin-right: 2%;
     overflow: hidden;
+    flex: 1;
     position: relative;
 }
 
 .promo-offers__item:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .promo-offers__img {
-    display: block;
     object-fit: cover;
     border-radius: 5px;
     width: 100%;
@@ -313,11 +322,13 @@ header {
 
 .promo-offer__description {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+    padding: 25px 30px;
     left: 0;
     right: 0;
     bottom: 0;
-    min-height: 120px;
-    padding: 25px 30px;
 }
 
 .promo-offers__header {
@@ -349,13 +360,9 @@ header {
 /*end of promo-offers*/
 
 .paginator {
-    text-align: center;
-}
-
-.paginator__index, .paginator__list, .paginator__item {
-    display: inline-block;
-    vertical-align: middle;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paginator__index {
@@ -365,8 +372,13 @@ header {
     line-height: 20px;
 }
 
+.paginator__list {
+    display: flex;
+}
+
 .paginator__page {
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 32px;
     height: 32px;
     border-radius: 50%;
