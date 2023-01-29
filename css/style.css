@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,400&display=swap'); 
 
+.html {
+    height: 100%;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -13,7 +16,18 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
+}
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+.footer {
+    margin-top: auto;
 }
 
 * {
