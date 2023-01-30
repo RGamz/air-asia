@@ -1,0 +1,19 @@
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+    font-style: 14px;
+    line-height: 19px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+.menu__item--active .menu__link {
+    color:#DA0100
+}
