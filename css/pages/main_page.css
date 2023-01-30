@@ -182,7 +182,7 @@
 }
 
 .about-us__front {
-    max-width: 785px;
+    max-width: 1140px;
     display: flex;
 }
 
@@ -203,12 +203,13 @@
 .about-us__front-img {
     margin-top: 93px;
     margin-left: 352px;
+    position: relative;
 }
 
 
 .about-us__info {
     position: absolute;
-    padding: 85px;
+    padding: 85px 0 85px 85px;
     display: flex;
     flex-direction: column;
     margin-top: 75px;
