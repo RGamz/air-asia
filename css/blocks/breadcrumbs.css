@@ -1,0 +1,35 @@
+
+.breadcrumbs__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.breadcrumbs__link {
+    color:#9A9A9A;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    padding-left: 2px;
+}
+
+.breadcrumbs__item--active {
+    font-weight: bold;
+}
+
+.breadcrumbs__item:first-child {
+    padding-left: 0px;
+}
+
+.breadcrumbs__item:after {
+    padding-left: 2px;
+    content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
