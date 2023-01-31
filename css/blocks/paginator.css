@@ -35,8 +35,10 @@
 
 .paginator-red {
     color: #000000;
+    margin-bottom: 90px;
 }
 
 .paginator__item--red .paginator__page {
-    background: red
+    background: red;
+    color: white;
 }

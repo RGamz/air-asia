@@ -322,6 +322,10 @@
     margin-right: 15%;
 }
 
+img.service__img {
+    min-width: 100%;
+}
+
 .service__content {
     flex: 1;
 }
@@ -339,10 +343,6 @@
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 34.5px;
-}
-
-.paginator-red {
-    margin-bottom: 90px;
 }
 
 /*end of services*/
@@ -365,7 +365,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 65px;
-    margin-bottom: 60px;
+    margin-bottom: 97px;
 }
 
 .partners__list {
@@ -374,12 +374,15 @@
     justify-content: space-between;
 }
 
+.partners__item {
+    min-width: 262px;
+    height: 120px;
+}
+
 
 .partners__link {
     text-decoration: none;
     display: flex;
-    min-width: 262px;
-    height: 120px;
     align-items: center;
 }
 
