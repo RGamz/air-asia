@@ -28,9 +28,10 @@
     line-height: 32px;
 }
 
-.paginator__item--white .paginator__page {
+.paginator__item:hover {
     background: white;
-    color: black
+    color: black;
+    border-radius: 50%;
 }
 
 .paginator-red {
@@ -38,7 +39,7 @@
     margin-bottom: 90px;
 }
 
-.paginator__item--red .paginator__page {
+.paginator__page:hover {
     background: red;
     color: white;
 }
