@@ -21,24 +21,6 @@
     margin-left: 80px;
 }
 
-.social-media {
-    margin-right: 75px;
-}
-
-.social-media__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.social-media__item {
-    margin-right: 9px;
-}
-
-.social-media__item:last-child {
-    margin-right: 0;
-}
-
 .container-footer {
     display: flex;
     flex-direction: row;
