@@ -3,6 +3,7 @@
 .adblock {
     height: 363px;
     background: url("../../images/reviews/Rectangle.png") center center no-repeat;
+    background-size: cover;
 }
 
 .container__adblock {

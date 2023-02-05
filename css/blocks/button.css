@@ -39,3 +39,13 @@
 .welcome__button {
     padding: 18px 55px;
 }
+
+.button--black {
+    background: #8E8E8E;
+    color: #fff;
+}
+
+.button--black:hover {
+    background: #2B2B2B;
+    box-shadow: 0px 2px 4px rgba(134, 134, 134, 0.3);
+}

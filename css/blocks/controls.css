@@ -1,0 +1,13 @@
+
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .review__topline-tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
