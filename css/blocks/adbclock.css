@@ -1,0 +1,24 @@
+
+
+.adblock {
+    height: 363px;
+    background: url("../../images/reviews/Rectangle.png") center center no-repeat;
+}
+
+.container__adblock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adbclock__header {
+    max-width: 50%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.adblock__photo {
+    padding-top: 22px;
+}
