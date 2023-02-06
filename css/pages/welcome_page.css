@@ -66,9 +66,10 @@
     line-height: 25px;
 }
 
-.weclome__content {
+.welcome__content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 25px;
 }
 
