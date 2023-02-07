@@ -22,7 +22,7 @@
     border-radius: 5px;
     background: #F4F5F5;
     width: 557px;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 20px;

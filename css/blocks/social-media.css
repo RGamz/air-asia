@@ -26,7 +26,15 @@
     position: relative;
  }
 
-.social-media__item:after {
+ .social-media__link {
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+ }
+
+.social-media__link:after {
     display: block;
     position: absolute;
     top: 50%;
