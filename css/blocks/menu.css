@@ -14,6 +14,10 @@
     text-decoration: none;
 }
 
-.menu__item:hover {
+/* .menu__item:hover {
+    color:#DA0100
+} */
+
+.menu__item--active {
     color:#DA0100
 }
