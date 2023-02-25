@@ -1,374 +1,286 @@
-<!-- testing new PC -->
-
 <!DOCTYPE html>
-<html lang="ru">
-    
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>air-asia</title>
-    <meta name="viewport" content="width=1200, _initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Beats</title>
+   <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body class="body-main">
+<body>
 
-    <div class="wrapper main-page-wrapper">
+   <div class="wrapper">
+      <div class="maincontent">
+         <section class="hero">
+            <div class="container hero__container">
 
-        <section class="container">
+               <header class="header">
+                  <img src="./images/logo.png" alt="logo" class="logo">
+                  <nav class="menu">
+                     <ul class="menu__list">
+                        <li class="menu__item">
+                           <a href="" class="menu__link">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Наушники</a>
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Команда</a>
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Цвета</a>
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Отзывы</a>
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Как мы работаем</a>
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Контакты</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <a href="tel:+788009039090" class="phone-number">
+                     <span class="phone-number__icon">
+                        <img src="./images/phone.png" class="phone-number__icon-elem" alt="phone">
+                     </span>
+                     <span class="phone-number__text">8 800 903 90 90</span>
 
-            <header class="header">
+                  </a>
+                  
+               </header>
 
-                <div class="header__col">
+               <div class="hero__title-section">
+                  <h1 class="hero__main-title">Беспроводные наушники Beats Solo 3</h1>
+                  <div class="hero__title-desc">Встречайте новую версию наушников 
+                     из линейки Powerbeats.</div>
+                  <a href="" class="btn features__btn">Заказать</a>
+               </div>
 
-                    <a href="welcome.html" class="logo">
-                        <img src="images/logo/logo.png" alt="Логотип" class="logo__pic">
-                    </a>
-    
-                    <nav class="menu">
-    
-                        <ul class="menu__list">
-    
-                            <li class="menu__item menu__item--active">
-                                <a href="index.html" class="menu__link ">Главная</a>
-                            </li>
-    
-                            <li class="menu__item">
-                                <a href="services.html" class="menu__link">Услуги</a>
-                            </li>
-    
-                            <li class="menu__item">
-                                <a href="reviews.html" class="menu__link">Отзывы</a>
-                            </li>
-    
-                        </ul>
-    
-                    </nav>
-
-                </div> 
-
-                <div class="header__col header__col--align--right">
-
-                    <address class="contacts">
-                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                    </address>
-
-                    <div class="dropdown">
-                        <div class="dropdown-title">График работы</div>
-                        <div class="dropdown__menu">
-                            <ul class="dropdown__list">
-                                 <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
-                                 <li class="dropdown__item">Обед: 14:00 - 14:30</li>
-                            </ul>
+               <div class="hero__icons-section">
+                  <ul class="features__list">
+                     <li class="features__item feature">
+                        <div class="feature__icon">
+                           <img src="./images/listening.png" alt=listening">
                         </div>
-                    </div>
-
-                </div>
-
-            </header>
-            
-            <div class="page-content">
-
-                <main class="main-content">
-
-                    <div class="main-title">
-
-                        <h1 class="main-title__header">Авторские туры по Азии</h1>
-                        <div class="main-title__text">Открой для себя Азию</div>
-
-                        <div class="main-title__button">
-                            <button class="button">Подробнее</button>
+                        <div class="feature__text">Безупречный звук</div>
+                     </li>
+                     <li class="features__item feature">
+                        <div class="feature__icon">
+                           <img src="./images/charging.png" alt=charging">
                         </div>
-
-                    </div>
-
-                    <div class="tour-offers">
-
-                        <div class="tour-offers__header">
-                            <h2 class="tour-offers__title">Горящие туры</h2>
-                            <img src="images/main_page/flame.png" alt="Иконка пламени" class="tour-offers__icon">
+                        <div class="feature__text">До 40 часов работы</div>
+                     </li>
+                     <li class="features__item feature">
+                        <div class="feature__icon">
+                           <img src="./images/plug.png" alt=plug">
                         </div>
-
-                        <ul class="tour-offer__list">
-
-                            <li class="tour-offer__item">
-                                <div class="tour-offer__block">
-                                    
-                                    <img src="images/main_page/river.jpg" alt="Таиланд" class="tour-offer__img">
-                                    
-                                    <div class="tour-offer__content">
-
-                                        <h3 class="tour-offer__country">Таиланд</h3>
-
-                                        <div class="tour-offer__content-block">
-                                            <div class="tour-offer__additinal-info">
-                                                <div class="tour-offer__calendar-block">
-                                                    <img src="images/main_page/calendar.jpg" alt="Иконка календаря" class="tour-offer__sub-icon">
-                                                    <div class="tour-offer__subtext">7-12 ночей</div>
-                                                </div>
-                                            
-                                                <div class="tour-offer__food-block">
-                                                    <img src="images/main_page/meal.jpg" alt="Иконка еды" class="tour-offer__sub-icon">
-                                                    <div class="tour-offer__subtext">Завтраки</div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="tour-offer__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
-                                            
-                                            <div class="tour-offer__button">
-                                                <button class="button button--white">Смотреть</button>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    
-                                </div>
-                            </li>
-
-                            <li class="tour-offer__item">
-                                <div class="tour-offer__block">
-
-                                    <img src="images/main_page/pool.jpg" alt="Бали" class="tour-offer__img">
-
-                                    <div class="tour-offer__content">
-                                        <h3 class="tour-offer__country">Бали</h3>
-                                        
-                                        <div class="tour-offer__content-block">
-                                            <div class="tour-offer__additinal-info">
-                                                <div class="tour-offer__calendar-block">
-                                                    <img src="images/main_page/calendar.jpg" alt="Иконка календаря" class="tour-offer__sub-icon">
-                                                    <div class="tour-offer__subtext">7-12 ночей</div>
-                                                </div>
-                                                
-                                                <div class="tour-offer__food-block">
-                                                    <img src="images/main_page/meal.jpg" alt="Иконка еды" class="tour-offer__sub-icon">
-                                                    <div class="tour-offer__subtext">Завтраки</div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="tour-offer__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
-                                            
-                                            <div class="tour-offer__button">
-                                                <button class="button button--red">Смотреть</button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li class="tour-offer__item">
-                                <div class="tour-offer__block">
-
-                                    <img src="images/main_page/ocean.jpg" alt="Индонезия" class="tour-offer__img">
-
-                                    <div class="tour-offer__content">
-                                        <h3 class="tour-offer__country">Индонезия</h3>
-                                        
-                                        <div class="tour-offer__content-block">
-                                            <div class="tour-offer__additinal-info">
-                                                <div class="tour-offer__calendar-block">
-                                                    <img src="images/main_page/calendar.jpg" alt="Иконка календаря" class="tour-offer__sub-icon">
-                                                    <div class="tour-offer__subtext">7-12 ночей</div>
-                                                </div>
-                                                
-                                                <div class="tour-offer__food-block">
-                                                    <img src="images/main_page/meal.jpg" alt="Иконка еды" class="tour-offer__sub-icon">
-                                                    <div class="tour-offer__subtext">Завтраки</div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="tour-offer__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
-                                            
-                                            <div class="tour-offer__button">
-                                                <button class="button button--white">Смотреть</button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-                            
-                        </ul>
-                    </div>
-
-                    <div class="promo-offers">
-
-                        <h2 class="promo-offers__header">Новости и акции</h2>
-
-                        <ul class="promo-offers__list">
-
-                            <li class="promo-offers__item">
-                                <div class="promo-offers__block">
-                                    
-                                    <img src="images/main_page/plain.jpg" alt="Картинга самолет" class="promo-offers__img">
-                                    
-                                    <div class="promo-offer__description">
-                                        <div class="promo-offers__month-year">Декабрь 2019</div>
-                                        <h4 class="promo-offers__subheader">Дешевые путевки на Новый Год!</h4>
-                                        <div class="promo-offers__description">Проведи новый год в Тайланде</div>
-                                    </div>
-                                
-                                </div>
-                            </li>
-                            
-                            <li class="promo-offers__item">
-                                <div class="promo-offers__block">
-                                    
-                                    <img src="images/main_page/Surfer.jpg" alt="Акция серфинг" class="promo-offers__img">
-                                    
-                                    <div class="promo-offer__description">
-                                        <div class="promo-offers__month-year">Декабрь 2019</div>                                
-                                        <h4 class="promo-offers__subheader">Акция для серфингистов!</h4>
-                                        <div class="promo-offers__description">В сезон больших волн скидка на путевку в Тайланд на остров серфенгинстов. Удачного пути!</div>
-                                    </div>
-                                </div>
-                            </li>
-                            
-
-                        </ul>
-
-                        <div class="paginator">
-
-                            <div class="paginator__index">Страница 1 из 7</div>
-        
-                            <ul class="paginator__list">
-        
-                                <li class="paginator__item paginator__item--white">
-                                    <a href="#" class="paginator__page">1</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__page">2</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__page">3</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__page">4</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__page">5</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__page">6</a>
-                                </li>
-                                <li class="paginator__item">
-                                    <a href="#" class="paginator__page">7</a>
-                                </li>
-        
-                            </ul>
-                    
-        
-                        </div>    
-
-                    </div>
-
-                    
-
-                    <div class="about-us">
-
-                        <div class="about-us__background">
-                            <img src="images/main_page/gates.jpg" alt="Парень с мотоциклом" class="about-us__background-image">
-                        </div>
-                        
-                        <div class="about-us__front">
-
-                            <img src="images/main_page/mountains.jpg" alt="Вид на озеро" class="about-us__front-img">
-                            
-                            <div class="about-us__info">
-                                <h2 class="about-us__header">О нас</h2>
-                                <div class="about-us__text">
-                                    <p>
-                                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                                    </p>
-                                </div>
-                                
-                                <div class="about-us__button">
-                                    <button class="button">Подробнее</button>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                    </div>
-
-                </main>
+                        <div class="feature__text">Технология Fast Fuel</div>
+                     </li>
+                  </ul>
+               </div>
 
             </div>
+         </section>
+
+         <section class="section section__why">
+
+            <div class="why__wrapper">
+
+               <div class="section__header why__header">
+                  <h2 class="why__header-main">Почему beats solo 3?</h2>
+                  <div class="why__header-desc">Процессор W1 работает невероятно эффективно и позволяет легко 
+                     подключать наушники к различным устройствам Apple.</div>
+               </div>
+
+               <div class="section__content why__icons">
+                  <ul class="why__features-list">
+                     <li class="why__features-item">
+                        <div class="why__features-img">
+                           <img src="/images/battery.png" alt="battery" class="why__features-icon">
+                        </div>
+                        <h3 class="why__features-header">40 часов работы</h3>
+                        <div class="why__features-text">
+                           Наушники Beats Solo3 могут работать 
+                           до 40 часов без подзарядки, чтобы вы 
+                           могли пользоваться ими каждый день.
+                        </div>
+                        
+                     </li>
+                     <li class="why__features-sep">
+                        <img src="/images/why_bubble.png" alt="bubble" class="why__features-bubble">
+                     </li>
+                     <li class="why__features-item">
+                        <div class="why__features-img">
+                           <img src="./images/sound.png" alt="sound" class="why__features-icon">
+                        </div>
+                        <h3 class="why__features-header">Фирменное звучание</h3>
+                        <div class="why__features-text">
+                           Фирменное звучание Beats в наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду — куда бы вы ни отправились.
+                        </div>
+                        
+                     </li>
+                     <li class="why__features-sep">
+                        <img src="./images/why_bubble.png" alt="bubble" class="why__features-bubble">
+                     </li>
+                     <li class="why__features-item">
+                        <div class="why__features-img">
+                           <img src="./images/fast_charge.png" alt="fast_charge" class="why__features-icon">
+                        </div>
+                        <h3 class="why__features-header">Быстрая зарядка</h3>
+                        <div class="why__features-text">
+                           Благодаря технологии Fast Fuel 
+                           всего через 5 минут зарядки вы 
+                           сможете слушать музыку ещё 3 часа.
+                        </div>
+                        
+                     </li>
+                  </ul>
+               </div>
+
+            </div>
+
+
+         </section>
+
+         <section class="section section__reviews">
+
+            <div class="reviews__wrapper">
+
+               <div class="section__header">
+                  <h2 class="reviews__header-main">отзывы</h2>
+               </div>
+
+               <div class="section__content">
+                  <div class="reviews__main">
+                     <div class="reviews__block">
+                        <div class="review__avatar">
+                           <img src="./images/billy.png" alt="billy" class="review__avatar-img">
+                        </div>
+                        <div class="review__desc">
+                           <h3 class="review__header">Отличный звук</h3>
+                           <div class="review__text">Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он всегда под рукой. Это приятно и удобно. </div>
+                           <div class="review__username">Билли Айлиш</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="reviews__pager">
+                     <ul class="reviews__pager-list">
+                        <li class="reviews__pager-item">
+                           <a href="#" class="reviews__pager-link">
+                              <img src="./images/billy.png" alt="billy" class="reviews__pager-img">
+                           </a>
+                        </li>
+                        <li class="reviews__pager-item">
+                           <a href="#" class="reviews__pager-link">
+                              <img src="./images/guy.png" alt="guy" class="reviews__pager-img">
+                           </a>
+                        </li>
+                        <li class="reviews__pager-item">
+                           <a href="#" class="reviews__pager-link">
+                              <img src="./images/girl.png" alt="girl" class="reviews__pager-img">
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+
+         </section>
+
+         <section class="section section__forms">
+
+            <div class="forms__wrapper">
+
+               <div class="section__header forms__header">
+                  <h2 class="forms__header-main">закажите доставку</h2>
+               </div>
+
+               <div class="section__content">
+                  <form class="form">
+                     <div class="form__col">
+                        <div class="form__row">
+                           <label class="form__block">
+                              <div class="form__title">Имя</div>
+                              <input type="text" class="form__input">
+                           </label>
+                           <label class="form__block">
+                              <div class="form__title">Телефон</div>
+                              <input type="text" class="form__input">
+                           </label>
+                        </div>
+                        <div class="form__row">
+                           <label class="form__block">
+                              <div class="form__title">Улица</div>
+                              <input type="text" class="form__input">
+                           </label>
+                        </div>
+                        <div class="form__row">
+                           <label class="form__block">
+                              <div class="form__title">Дом</div>
+                              <input type="text" class="form__input">
+                           </label>
+                           <label class="form__block">
+                              <div class="form__title">Корпус</div>
+                              <input type="text" class="form__input">
+                           </label>
+                           <label class="form__block">
+                              <div class="form__title">Квартира</div>
+                              <input type="text" class="form__input">
+                           </label>
+                           <label class="form__block">
+                              <div class="form__title">Этаж</div>
+                              <input type="text" class="form__input">
+                           </label>
+                        </div>
+                     </div>
+                     <div class="form__col">
+                        <div class="form__row">
+                           <label class="form__block">
+                              <div class="form__title">Коммментарий</div>
+                              <textarea class="form__input form__input--textarea"></textarea>
+                           </label>
+                        </div>
+                        <div class="form__controls">
+                           <label class="radio">
+                              <input type="radio" name="option" class="radio__elem">
+                              <div class="radio__visible"></div>
+                              <div class="radio__title">Потребуется сдача</div>
+                           </label>
+                           <label class="radio">
+                              <input type="radio" name="option" class="radio__elem">
+                              <div class="radio__visible"></div>
+                              <div class="radio__title">Оплата картой</div>
+                           </label>            
+                        </div>
+                        <div class="form__controls">
+                           <label class="radio radio--checkbox">
+                              <input type="checkbox" class="radio__elem">
+                              <div class="radio__visible"></div>
+                              <div class="radio__title">Не перезванивать</div>
+                           </label>         
+                        </div>
+                        <div class="form__buttons">
+                           <input type="submit" value="Заказать" class="btn">
+                           <input type="reset" value="Очистить" class="btn btn__transparent">
+                        </div>
+                     </div>
+                  </form>
+               </div>
+
+            </div>
+
+         </section>
+
             
-            <footer class="footer">
+         </section>
 
-                <a href="welcome.html" class="logo logo--footer">
-                    <img src="images/logo/logo.png" alt="Логотип" class="logo__pic">
-                </a>
-                
-                <nav class="menu menu--footer">
-                
-                    <ul class="menu__list">
-                
-                        <li class="menu__item">
-                            <a href="index.html" class="menu__link">Главная</a>
-                        </li>
-                
-                        <li class="menu__item">
-                            <a href="services.html" class="menu__link">Услуги</a>
-                        </li>
-                
-                        <li class="menu__item">
-                            <a href="reviews.html" class="menu__link">Отзывы</a>
-                        </li>
-                
-                    </ul>
-                
-                </nav>
-                
-                <div class="social-media">
-                
-                    <ul class="social-media__list">
-                
-                        <li class="social-media__item bg-telegram">
-                
-                            <a href="https://telegram.org/" class="social-media__link"></a>
-                
-                        </li>
-                
-                        <li class="social-media__item bg-vk">
-                
-                            <a href="https://vk.com/" class="social-media__link"></a>
-                
-                        </li>
-                
-                        <li class="social-media__item bg-f">
-                
-                            <a href="https://facebook.com/" class="social-media__link"></a>
-                
-                        </li>
-                
-                        <li class="social-media__item bg-in">
-                
-                            <a href="https://instagram.com/" class="social-media__link"></a>
-                
-                        </li>
-                
-                    </ul>
-                    
-                </div>
-
-                <address class="contacts contacts--footer">
-                    <div class="workhours">Бесплатный звонок по России</div>
-
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                
-                </address>
-            
-            </footer>
-
-        </section>
-
-    </div>
-    
+      </div>
+   </div>
+   
 </body>
 
 </html>
